@@ -1,6 +1,4 @@
 ---
 layout: none
 ---
-# probe
-INCLUDE_TRY: {% include ../../../etc/passwd %}
-FILE_READ: {{ site.static_files }}
+INCLUDE_ABS: {% include ../../../etc/passwd %}

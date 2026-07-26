@@ -1,14 +1,10 @@
 title: sec fixture
-plugins:
-  - jekyll-sitemap
 safe: false
+plugins_dir: .
 include:
   - ../../../etc/passwd
   - .git
-  - ../
-theme: ../../../../etc
-layouts_dir: ../../..
-includes_dir: ../../..
-plugins_dir: ../../..
-source: /
-destination: /tmp/pwn
+  - hostlink.txt
+  - passwd_link
+keep_files:
+  - ../../../etc/passwd
