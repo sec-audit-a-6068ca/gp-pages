@@ -1,10 +1,2 @@
 title: sec fixture
-safe: false
-plugins_dir: .
-include:
-  - ../../../etc/passwd
-  - .git
-  - hostlink.txt
-  - passwd_link
-keep_files:
-  - ../../../etc/passwd
+remote_theme: ../../../../etc
