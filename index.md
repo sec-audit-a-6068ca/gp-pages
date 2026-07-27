@@ -1,6 +1,4 @@
 ---
-layout: none
+layout: default
 ---
-SAFE_MODE={{ site.safe }}
-STATICFILES={{ site.static_files | map: "path" | join: " | " }}
-PAGES={{ site.pages | map: "path" | join: " | " }}
+# build probe 1785143849
